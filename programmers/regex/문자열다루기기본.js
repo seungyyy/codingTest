@@ -5,7 +5,6 @@
 
 // /\D/g 숫자가 아닌 문자에 대한 전역 검색
 function solution(s) { 
-  console.log(s.search(/\D/g));
   return s.search(/\D/g) < 0 && (s.length === 4 || s.length === 6);
 }
 
